@@ -12,6 +12,7 @@ client_scripts {
 	"config/Permissions.lua",
 	"config/Components.lua",
 	"config/Overlays.js",
+	"config/Config.lua",
 	---------------------
 	"client/_Main.lua",
 	"client/BasicNeeds.lua",
@@ -22,6 +23,10 @@ client_scripts {
 	"client/Player.lua",
 	"client/Wrapper.lua",
 	"client/Area.lua",
+
+	---------------------
+	'Locale.lua',
+	'locales/en.lua',
 }
 
 server_scripts {
@@ -81,4 +86,4 @@ exports {
 	'overlayAllLayers',
 	'setOverlaySelected',
 	'getDataCreator'
-}
+} 

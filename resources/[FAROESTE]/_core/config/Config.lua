@@ -1,0 +1,3 @@
+Config = {}
+
+Language = 'en'
