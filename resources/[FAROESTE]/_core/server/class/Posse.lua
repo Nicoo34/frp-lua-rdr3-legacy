@@ -110,7 +110,7 @@ function API.Posse(id, charid, name, members)
                     API.Character:remData(charid, 'metaData', 'posse')
                 end
 
-                self:notifyMembers('CharId ' .. charid .. ''_('left_band'))
+                self:notifyMembers('CharId ' .. charid .. '_('left_band')')
                 self.members[charid] = nil
             end
         end
